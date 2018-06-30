@@ -9,8 +9,12 @@ for l in range(len(wej)):
         lkl=klucz
         while(lkl>len(litery)):
             lkl=lkl-len(litery)
-        
-        wyj=wyj+litery[litery.index(wej[l])+lkl]
+
+        war=litery.index(wej[l])+lkl
+
+        while war>len(litery):
+            war=war-len(litery)
+        wyj=wyj+litery[war]
     else:
         wyj=wyj+wej[l]
 
