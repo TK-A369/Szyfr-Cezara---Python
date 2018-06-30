@@ -15,3 +15,4 @@ for l in range(len(wej)):
         wyj=wyj+wej[l]
 
 print(wyj)
+input("")
