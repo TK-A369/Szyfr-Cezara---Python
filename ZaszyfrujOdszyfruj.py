@@ -2,7 +2,7 @@ litery = ["a","ą","b","c","ć","d","e","ę","f","g","h","i","j","k","l","ł","m
 
 while(True):
     wej=input("Podaj wiadomosc: ")
-    klucz=int(input("Podaj klucz (Wartość dodatnia jeśli szyfrujemy lub ujemna jeśli odszyfrowywujemy): "))
+    klucz=int(input("Podaj klucz (wqartość doadtnia - szyfrowanie, ujemna - odszyfrowywanie): "))
     wyj=""
     
     for l in range(len(wej)):
