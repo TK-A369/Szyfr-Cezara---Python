@@ -1,4 +1,4 @@
-litery = ["a","ą","b","c","ć","d","e","ę","f","g","h","i","j","k","l","ł","m","n","o","ó","p","r","s","ś","t","u","w","y","z","ż","ź"," ",".","!","?"]
+litery = ["a","ą","b","c","ć","d","e","ę","f","g","h","i","j","k","l","ł","m","n","ń","o","ó","p","r","s","ś","t","u","w","y","z","ż","ź","A","Ą","B","C","Ć","D","E","Ę","F","G","H","I","J","K","L","Ł","M","N","Ń","O","Ó","P","R","S","Ś","T","U","W","Y","Z","Ż","Ź"," ",".","!","?"]
 
 wej=input("Podaj wiadomosc: ")
 klucz=int(input("Podaj klucz (Wartość dodatnia jeśli szyfrujemy lub ujemna jeśli odszyfrowywujemy): "))
