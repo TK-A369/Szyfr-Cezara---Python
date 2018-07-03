@@ -1,7 +1,7 @@
 litery = ["a","ą","b","c","ć","d","e","ę","f","g","h","i","j","k","l","ł","m","n","ń","o","ó","p","r","s","ś","t","u","w","y","z","ż","ź","A","Ą","B","C","Ć","D","E","Ę","F","G","H","I","J","K","L","Ł","M","N","Ń","O","Ó","P","R","S","Ś","T","U","W","Y","Z","Ż","Ź"," ",".","!","?"]
 
 while(True):
-    wej=input("Podaj wiadomosc: ")
+    wej=input("Podaj wiadomosc: \n")
     klucz=int(input("Podaj klucz (wartość dodatnia - szyfrowanie, ujemna - odszyfrowywanie): "))
     wyj=""
     
