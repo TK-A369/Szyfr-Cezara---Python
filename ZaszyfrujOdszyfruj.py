@@ -10,11 +10,18 @@ while(True):
             lkl=klucz
             while(lkl>len(litery)):
                 lkl=lkl-len(litery)
-    
+
+            while(lkl<(len(litery)*-1)):
+                lkl=lkl+len(litery)
+            
             war=litery.index(wej[l])+lkl
     
             while war>len(litery):
                 war=war-len(litery)
+            
+            while war<(len(litery)*-1):
+                war=war+len(litery)
+            
             wyj=wyj+litery[war]
         else:
             wyj=wyj+wej[l]
